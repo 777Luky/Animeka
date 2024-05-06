@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{ 
+    font-size:80%;
+    background-color:#0d0d0d;
+    font-style: normal;
+    font-family: signika negative, sans-serif;
+    color: #f5f5f5;
+}
+nav ul{ 
+    background: #f24405 ;
+    border-radius: 0rem 0rem 2rem 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    width: 100%;
+    height: 5.1rem;
+    position: fixed;
+    list-style-type: none;
+    padding: 1.5rem;
+    margin:auto;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+nav{ 
+    min-width: auto;
+    margin-inline-start: auto;
+}
+nav ul div  { 
+    display: flex;
+}
+
+nav ul div li a{ 
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+ul div li a img{ 
+    max-width: 6.5rem;
+    align-items: start;
+    margin-top: -8px;
+    position: fixed;
+    position: relative;
+}
+#ContentBrowse{ 
+    position: relative;
+    margin-left: 300%;
+}
+.searchContent{ 
+    margin-top:-5px;
+    position: absolute;
+    border-radius: 25px;
+    
+}
+form { 
+    background: #f5f5f5;
+    margin-top: 2px;
+    display: flex;
+    border-radius: 25px;
+}
+form input { 
+    position: relative;
+    font-family: signika negative, sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+}
+ .InputSearch[type="none"]
+{ 
+    background: #f5f5f5;
+    width: 248px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px ;
+    color: #f24405;
+
+}
+.SearchButton[type="Submit"]
+{ 
+    color: #f5f5f5;
+    border: none;
+    border-radius:25px;
+    width: 120px;
+    outline: none;
+    cursor: pointer;
+    background:#f24405
+    
+}
+.SearchButton:hover { 
+    background: #A62f03;
+    transition: ease-in;
+}
+
+
+form button{ 
+    font-family: signika negative, sans-serif;
+    font-size: 1.5rem;
+    padding: 10px;
+    background:#A62f03;
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    color: #f5f5f5;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+div li select { 
+    font-family:signika negative, sans-serif ;
+    font-size: 1.5rem;
+    background-color: #f24405;
+    border: none;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-decoration: none;
+    color: #f5f5f5;
+
+}
+    /* start of home screen */
+.imageContent { 
+    background-image: linear-gradient(0deg, rgba(13,13,13,1) 0%, rgba(255,255,255,0) 100%),url(../img/one-piece.jpg);
+    background-size: cover;
+    min-height: 900px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    padding: 20rem; 
+}
+
+.aniButtons div button, .aniButtons div div button { 
+
+    font-family: "signika negative", sans-serif;
+    font-style: normal;  
+    background-size: 5rem;
+    padding: 1rem;
+    border-radius: 2rem;
+
+}
+.aniButtons div button { 
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.aniButtons  { 
+    text-align: end;
+    display: block;
+    padding-top: 20rem;
+    align-items: center;
+
+}
+
+.buttonEnd { 
+    padding-top: 1rem;
+    padding-right: 7.5rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    margin-right: 2.5rem;
+ 
+}
+.aniButtons .callAction{ 
+    background-color: #f24405;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.greenBox{ 
+    background-color: green;
+    flex-wrap: wrap; 
+    width: 117px;
+    height: 38px;  
+    border-radius: 25px; 
+    justify-content: center;
+}
+.redBox{ 
+    background-color: red;
+    flex-wrap: wrap; 
+    width: 117px;
+    height: 38px;  
+    border-radius: 25px; 
+    justify-content: center;
+}
+#fingerUp{ 
+    background-image: url(../img/fingerUp.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 37px;
+    background-size: contain;
+    margin-left: 3.3rem;
+   
+}
+                                                                /* ask about position of the hands to be moved in the center of the button*/
+#fingerDown{ 
+    background-image: url(../img/fingerDown.png) ;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 37px;
+    background-size: contain;
+    margin-left: 3.3rem;
+
+}
+
+
+
+
+
+/* start of section anime content*/
+#boxHead { 
+    padding-top:2rem ;
+    padding-left: 5rem;
+    justify-self: start;
+    font-size: 2.5rem;
+}
+
+.flexContentContainer { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-position: center;
+}
+
+#cardGallery { 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-right: 2rem;
+    padding-left:7rem;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin: 21px auto;    
+}
+
+.cardContainer { 
+    
+    min-height: 390px; 
+    max-width: 19rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    flex-wrap: wrap; 
+    margin: auto;
+    border-radius: 25px;
+}
+
+
+#onePiece { 
+    background-image: url(../img/onePiece.jpg);
+}
+#signAffection { 
+    background-image: url(../img/SignofAffection.jpg);
+}
+#s-Level { 
+    background-image: url(../img/SoloLeveling.jpg);
+}
+#classElite { 
+    background-image: url(../img/class_room.jpg);
+}
+
+#Bleach { 
+    background-image: url(../img/Bleachanime.png);
+}
+#myHero { 
+    background-image: url(../img/myHero.jpg);
+}
+#PromiseNever { 
+    background-image: url(../img/PromiseNever.jpg);
+}
+#SpyFamily { 
+    background-image: url(../img/SpyFamily.jpg);
+}
+
+#onePiece { 
+    background-image: url(../img/onePiece.jpg);
+}
+#signAffection { 
+    background-image: url(../img/SignofAffection.jpg);
+}
+#s-Level { 
+    background-image: url(../img/SoloLeveling.jpg);
+}
+#classElite { 
+    background-image: url(../img/class_room.jpg);
+}
+.cardCopy{
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    display: flex;
+    object-fit: cover;
+    text-wrap: 20rem;
+    background-color: rgba(0, 0,0, .65);
+    opacity:0;
+    transition: opacity 1s;
+    text-align: center;
+    padding: 1.5rem;
+    min-height: 390px;
+}
+
+.cardCopy:hover { 
+    opacity: 1;
+    object-fit: cover;
+}
+#MainNewsSection{ 
+    font-size:7rem ;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#bigNewsBoxIndex{ 
+    display: flex;
+    flex-direction: column;
+    background-size: contain;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+
+}
+#imageNewsIndex{ 
+    border-radius: 25px;
+    margin-bottom: 5rem;
+}
+#MainNewsTextIndex{ 
+    font-size: 50px;
+    color: #A62f03;
+    text-shadow:3px 3px 3px #0d0d0d ;
+    position: absolute;
+    text-align: center;
+    
+    padding-right: 25%;
+    padding-left: 5%;
+    bottom:10%
+}
+.NewsSectionIndex{ 
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+}
+.subNewsIndex{ 
+    border: none;
+    display: flex;
+    flex-direction:row;
+    min-height: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+div #AniAwards{ 
+    margin-left: 70%;
+    margin-top: -44rem;
+    padding-bottom: 5rem;
+
+}
+
+footer { 
+    background-color:#f24405;
+    border-radius: 2rem 2rem 0rem 0rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding: 1.5rem 15rem;
+    
+}
+footer ul div { 
+    display:flex;
+    padding: auto;
+    justify-content: space-between;
+    list-style: none;
+    margin:auto
+}
+                                                           /* start of SignIn Cite */
+
+#signInCite .imageFlex{ 
+    display: flex;
+    flex-direction: row;
+    margin-top:-3rem;
+    gap: 6rem;
+   
+}
+ .animationPictures{ 
+    min-height: 225px; 
+    width: 12rem;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    background-image: url(../img/AttackTitans.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    rotate: 45deg;
+    
+    animation: change 10s infinite ease-in-out;
+}
+@keyframes change {
+
+    0% 
+    { 
+        background-image: url(../img/Bleachanime.png);
+    }
+    20%
+    { 
+        background-image: url(../img/blueExcorcist.jpg);
+    }    
+    40%
+    { 
+        background-image: url(../img/death_note.jpg);
+    }    
+    60% 
+    { 
+        background-image: url(../img/loveWar.jpg);
+    }    
+    80% 
+    { 
+        background-image: url(../img/DrStone.jpg);
+    }
+    100% 
+    { 
+        background-image: url(../img/SignofAffection.jpg);
+    }
+}
+
+.galleryFlex{ 
+    display: flex;
+    flex-direction: column;
+    column-gap: 5rem;
+}
+#signInCite .signContainer{ 
+    background-color: #0d0d0d;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    text-decoration: none;
+    margin-top: -60rem;
+    
+}
+
+#signInCite .signContainer .contentSign{ 
+    position: relative;
+    background-color: #f24405;
+    padding: 96px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 30px;
+    min-height: 50rem;
+    margin: auto;
+
+}
+
+#signInCite section li { 
+    padding-top: 10px;
+    padding-bottom: 6px;
+    text-decoration: none;
+    list-style-type: none;
+}
+#signInCite section .contentSign #ContainerLog{ 
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 5rem;
+    text-shadow:2px 2px 2px #0d0d0d ;
+    text-decoration: none;
+}
+
+#signInCite section .contentSign #forgotContainer{ 
+    font-size: .90rem;
+    text-decoration: underline;
+    
+}.inputContainer{ 
+    width: 128px;
+}
+.entryarea { 
+    position: relative;
+    height: 56px;
+    line-height: 4.5rem;
+
+}
+.signBox { 
+    position: absolute;
+    width: auto;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 92px;
+    margin-left: -64px;
+    line-height: 50px;
+    border-radius: 10px;
+    border: 2px solid #f5f5f5 ;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111; 
+}
+.labelLine { 
+    position: absolute;
+    font-size: 1.2rem;
+    padding: 1px 21px;
+    background-color: #f24405;
+    transition: 0.2s ease;
+}
+.signBox:focus,
+.signBox:valid{ 
+    color: #A62f03;
+    border: 4px solid #A62f03;
+}
+
+.signBox:focus + .labelLine ,
+.signBox:valid+ .labelLine{ 
+    color: #A62f03;
+    height: 30px;
+    line-height: 30px;
+    transform: translate(-15px,-16px) scale(0.88);
+    z-index: 1111;
+}
+
+#forgotContainer p{ 
+    color: #0d0d0d;
+    text-decoration: #0d0d0d;
+    margin-left: 15rem;
+    padding-bottom: 2rem;
+}
+
+.logContainer { 
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-left: -2rem;
+    margin-right:-3rem;
+}
+.logContainer h3{ 
+    font-size: 1rem;
+    color: #0d0d0d;
+}
+
+#logContent { 
+    margin-top:-4rem ;
+
+}
+
+.logoBox{ 
+    margin:-32px auto;
+}
+.logoBox li a img{ 
+    max-width: 12.5rem;
+}
+#logButton{ 
+    margin-top: 10px;
+}
+#logButton li{
+    background-color: #f5f5f5; 
+    border-radius: 10px;
+
+}
+li a.Log { 
+    text-decoration: none;
+    list-style-type: none;
+    color: #0d0d0d;
+    font-size: 2rem;
+}
+
+#createBox{ 
+    background-color: #f5f5f5;
+    padding: 5px 30px;
+    border-radius: 10px;
+}
+
+#createBox #createContent { 
+    padding-top: 7px;
+}
+
+
+                                                            /* Start of News Page */
+#newsPage  { 
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    position: relative;
+    top: 90%;
+    
+}
+
+
+
+.SideNewsFlex { 
+    margin-top: 5rem;
+    margin-left: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    padding-bottom: 5rem;
+}
+.SideNewsBox { 
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    background-size: cover;
+    padding-right: 1rem;
+    gap: 2rem;
+    padding-bottom: 1.563rem;
+    border-bottom:3px solid #f24405;
+    margin-right: 1.188rem;
+    padding-top: 1.25rem;
+}
+
+
+.SideimageBox{ 
+    object-fit: cover;
+    min-height: 50px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+                                                        /* main news Box */
+
+#bigNewsBox{ 
+    margin-right: 20%;
+    padding-left:2rem ;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-size: cover;
+}
+
+
+#MainNewsText{ 
+    font-size: 50px;
+    color: #A62f03;
+    text-shadow:3px 3px 3px #0d0d0d ;
+    position: absolute;
+    bottom: 351px;
+    padding-left: 50px;
+    
+} 
+#imageNews{ 
+    margin-top:-69rem ;
+    border-radius: 25px;
+}
+#NewsFooter{ 
+    bottom: -86px;
+    position: absolute;
+}
+.BubbleFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    justify-content: space-evenly;
+    padding: 20px;
+    padding-left: 50rem;
+}
+
+#bubbleOragne{ 
+    width: 76px;
+    height: 30px;
+    background: #f24405;
+    border-radius: 25px;
+}
+#whiteBubble{
+    width: 76px;
+    height: 30px;
+    background:#f5f5f5;
+    border-radius: 25px;
+}
+/* Sub News Section */
+.NewsSection{ 
+    margin-top: -14rem;
+}
+.SubNewsFlex { 
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.subNews{ 
+    display: flex;
+    flex-direction:row;
+    min-height: 8rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-top:3px solid #f24405;
+    margin-right: 20%;
+}
+.SubImageBox{ 
+    border-radius: 25px;
+    object-fit: cover;
+    min-height: 19rem;
+    max-width: 22rem;
+}
+.subNewsText{ 
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 30rem;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
